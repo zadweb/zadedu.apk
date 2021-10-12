@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffffff" />
+    <size android:height="@dimen/navigation_drawer_header_icon_width" android:width="@dimen/navigation_drawer_header_icon_width" />
+</shape>

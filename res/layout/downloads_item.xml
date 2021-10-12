@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/materialGray900" android:ellipsize="end" android:id="@id/nameDI" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="New Text" android:maxLines="1" android:layout_toLeftOf="@id/time" android:fontFamily="@font/opensans_semibold" android:layout_toStartOf="@id/time" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/materialGray900" android:gravity="right" android:id="@id/time" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="1 Jan" android:layout_alignParentRight="true" android:fontFamily="@font/opensans_regular" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/materialGray500" android:ellipsize="end" android:id="@id/descriptionDI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="New Text" android:maxLines="1" android:fontFamily="@font/opensans_regular" />
+        <ProgressBar android:id="@id/progressBarDI" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:progressDrawable="@drawable/progress" style="?android:progressBarStyleHorizontal" />
+    </LinearLayout>
+</RelativeLayout>

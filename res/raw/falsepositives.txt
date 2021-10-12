@@ -1,0 +1,36 @@
+=== Zad Edu false positives ===
+________________________________________
+Our company Appsgeyser (founded in 2018, istanbul, turkey) is one of the
+leading android application development environments for newbies
+(https://www.zadedu.org/)
+
+Zad Edu platform code is 100% malware/spyware/virus free. Analysis on
+any level will demonstrate that apps built with www.zadedu.org has no
+harmful code nor they ask risky android permissions. But some users try to
+mislead people to harmful resources with our platfrom or use our platform
+to wrap content that others may find harmful or abusive.
+
+Unfortunately several antivirus vendors in the past have marked our platform
+in error creating "false positive" reports. We encourage antivirus vendors to
+carefully review the reported file submissions and try to locate the
+particular build rather than marking common parts of the platform in error.
+
+Please note that each application built with Zad Edu can be identified
+by package name or by the AppID that is stored in the file named
+configuration.xml located under /res/raw.  AppID could be found in
+between <id> </id> tags
+
+<?xml version="1.0" encoding="UTF-8"?>
+<webWidget>
+	<widgetName>sadas</widgetName>
+	<registeredUrl>
+		<link>http://stat.appioapp.com/statistics.php</link>
+	</registeredUrl>
+		<id>61831</id>
+:.
+</webWidget>
+
+By reporting this particular ID or app name or android package name to abdelrahmanmahmoud@zadedu.org we have a chance to block particular application. This blockage will completely deactivate the application even those that were already distributed and installed by end users.
+PLEASE TRY TO AVOID FALSE POSITIVES.
+
+

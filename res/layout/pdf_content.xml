@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appsgeyser.multiTabApp.ui.views.PdfContent android:id="@id/pdfContent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.github.barteksc.pdfviewer.PDFView android:id="@id/pdfView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/pdf_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/error_text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/error_load_pdf" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.appsgeyser.multiTabApp.ui.views.PdfContent>

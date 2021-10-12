@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appsgeyser.multiTabApp.ui.views.WebContent android:id="@id/webViewPane" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.appsgeyser.multiTabApp.ui.views.BrowserWebView android:id="@id/webView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/progressbarPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <ProgressBar android:id="@id/progressbar" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progressDrawable="@drawable/progress" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/loadingCurtainDefault" android:background="#ee000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loadingPaneTitle" android:editable="false" android:layout_below="@id/progressbar" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/errorDialogPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:color="#55000000" />
+</com.appsgeyser.multiTabApp.ui.views.WebContent>

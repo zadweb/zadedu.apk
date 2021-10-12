@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webWidget>
+	<widgetName>Zad_12964618</widgetName>
+	<registeredUrl>
+		<link>http://stat.appioapp.com/statistics.php</link>
+	</registeredUrl>  
+		<id>12964618</id>
+	<usage>
+		<link>http://stat.appioapp.com/statistics.php</link>
+	</usage>
+	<preventFromSleep>false</preventFromSleep>
+	<locationUrl>
+		<link>icc.to/desktopify/android/location.php</link>  
+	</locationUrl>
+	<contentProtection></contentProtection>
+	<acceptCookie>true</acceptCookie>
+	<userInterface>standard</userInterface>
+	<bannerPosition>bottom</bannerPosition>
+	<rateItemVisibility>TRUE</rateItemVisibility>
+	<showRefreshMenuItem>FALSE</showRefreshMenuItem>
+	<showShareMenuItem>true</showShareMenuItem>
+	<showAboutMenuItem>true</showAboutMenuItem>
+	<showExitMenuItem>true</showExitMenuItem>
+	<showSearchNotice>false</showSearchNotice>
+	<enableUrlBar>false</enableUrlBar>
+        <showDownloadList>true</showDownloadList>
+
+	<tabsPosition>drawer</tabsPosition>
+	<enableFullScreenBanner>true</enableFullScreenBanner>
+	<enableOnExitFullScreenBanner>true</enableOnExitFullScreenBanner>
+	<enableRedirection>true</enableRedirection>
+	<enableHideUrlBar>true</enableHideUrlBar>
+	<enableHideTabBar>true</enableHideTabBar>
+	<downloadAction>dialog</downloadAction>
+	<affiliate></affiliate>
+	<publisher></publisher>
+	<enableAboutScreen>true</enableAboutScreen>
+	<shareExtraLink>https://play.google.com/store/apps/details?id=com.wZad_12964618</shareExtraLink>
+	<showSettings>false</showSettings>
+	<theme>ACTION_BAR</theme>
+	<urlBarStyle>top</urlBarStyle>
+	<showStartupConfirmationDialog>false</showStartupConfirmationDialog>
+	<splashScreen  image="" background="#000000"/>
+	<urlBarMenuItems>
+	  
+			<button name="forward"/>
+			<button name="request_desktop"/>
+			<button name="add_to_home"/>
+			<button name="home">home</button>
+			
+	</urlBarMenuItems>
+	<fullScreenMode>
+		<content>
+						<id>tab0</id>
+						<name>Zad</name>
+						<link>https://www.zadedu.org/</link>
+						<update>0</update>
+						<width>319</width>
+						<height>458</height>
+						<tabName>Zad</tabName>
+						<tabIcon></tabIcon>
+						<showAsTab>true</showAsTab>
+						<tabId>15382503</tabId>
+						<tabType>web</tabType>
+						
+						<loadingCurtain>none</loadingCurtain>
+						
+					 </content>
+				 <content>
+						<id>tab1</id>
+						<name>studying around the world</name>
+						<link>https://www.zadedu.org/blog</link>
+						<update>0</update>
+						<width>319</width>
+						<height>458</height>
+						<tabName>studying around the world</tabName>
+						<tabIcon></tabIcon>
+						<showAsTab>true</showAsTab>
+						<tabId>15699720</tabId>
+						<tabType>web</tabType>
+						
+						<loadingCurtain>none</loadingCurtain>
+						
+					 </content>
+				 <content>
+						<id>tab2</id>
+						<name>Scholarships</name>
+						<link>https://www.zadedu.org/post/turkeyscholarships</link>
+						<update>0</update>
+						<width>319</width>
+						<height>458</height>
+						<tabName>Scholarships</tabName>
+						<tabIcon></tabIcon>
+						<showAsTab>true</showAsTab>
+						<tabId>15699728</tabId>
+						<tabType>web</tabType>
+						
+						<loadingCurtain>none</loadingCurtain>
+						
+					 </content>
+				 <content>
+						<id>tab3</id>
+						<name>The Educational news Daily</name>
+						<link>https://www.zadedu.org/forum</link>
+						<update>0</update>
+						<width>319</width>
+						<height>458</height>
+						<tabName>The Educational news Daily</tabName>
+						<tabIcon></tabIcon>
+						<showAsTab>true</showAsTab>
+						<tabId>15699731</tabId>
+						<tabType>web</tabType>
+						
+						<loadingCurtain>none</loadingCurtain>
+						
+					 </content>
+				 <content>
+						<id>tab4</id>
+						<name>Facebook</name>
+						<link>https://www.facebook.com/abdomeido/</link>
+						<update>0</update>
+						<width>319</width>
+						<height>458</height>
+						<tabName>Facebook</tabName>
+						<tabIcon></tabIcon>
+						<showAsTab>true</showAsTab>
+						<tabId>15382529</tabId>
+						<tabType>web</tabType>
+						
+						<loadingCurtain>none</loadingCurtain>
+						
+					 </content>
+				 <content>
+						<id>tab5</id>
+						<name>Privacy Policy</name>
+						<link>file:///android_asset/content_5.html</link>
+						<update>0</update>
+						<width>319</width>
+						<height>458</height>
+						<tabName>Privacy Policy</tabName>
+						<tabIcon></tabIcon>
+						<showAsTab>true</showAsTab>
+						<tabId>15388139</tabId>
+						<tabType>web</tabType>
+						
+						<loadingCurtain>none</loadingCurtain>
+						
+					 </content>
+				 
+	</fullScreenMode> 
+	
+</webWidget>

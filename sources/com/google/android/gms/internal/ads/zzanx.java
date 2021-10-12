@@ -1,0 +1,46 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executor;
+import java.util.concurrent.TimeUnit;
+
+/* access modifiers changed from: package-private */
+@zzadh
+public final class zzanx<T> implements zzanz<T> {
+    private final Throwable cause;
+    private final zzaoa zzcvt;
+
+    zzanx(Throwable th) {
+        this.cause = th;
+        zzaoa zzaoa = new zzaoa();
+        this.zzcvt = zzaoa;
+        zzaoa.zzsm();
+    }
+
+    public final boolean cancel(boolean z) {
+        return false;
+    }
+
+    @Override // java.util.concurrent.Future
+    public final T get() throws ExecutionException {
+        throw new ExecutionException(this.cause);
+    }
+
+    @Override // java.util.concurrent.Future
+    public final T get(long j, TimeUnit timeUnit) throws ExecutionException {
+        throw new ExecutionException(this.cause);
+    }
+
+    public final boolean isCancelled() {
+        return false;
+    }
+
+    public final boolean isDone() {
+        return true;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzanz
+    public final void zza(Runnable runnable, Executor executor) {
+        this.zzcvt.zza(runnable, executor);
+    }
+}
